@@ -8,7 +8,7 @@ use CommissionClaculator\Service\WithdrawPrivateFirstHandler;
 use CommissionClaculator\Service\WithdrawPrivateReptetiveHandler;
 
 $depositHandler = arrangHandlers();
-$pathOfFile = $argv[2];
+$pathOfFile = $argv[1];
 $customerArr = array();
 $customerArr = readAndHandleLines($pathOfFile, $depositHandler, $customerArr);
 
