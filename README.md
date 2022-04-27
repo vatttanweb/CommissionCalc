@@ -1,11 +1,13 @@
-# Paysera Commission task skeleton
+# Commission Calculator
 
-Following steps:
-- don't forget to change `Paysera` namespace and package name in `composer.json`
- to your own, as `Paysera` keyword should not be used anywhere in your task;
-- `\Paysera\CommissionTask\Service\Math` is an example class provided for the skeleton and could or could not be used by your preference;
-- needed scripts could be found inside `composer.json`;
-- before submitting the task make sure that all the scripts pass (`composer run test` in particular);
-- this file should be updated before submitting the task with the documentation on how to run your program.
+Following steps for onboard project:
+- php composer install
+- composer dump-autoload
 
-Good luck! :) 
+Following step for run **project**:
+- php index.php [your csv file path] **(php index.php a.csv)**
+
+(There is the 'a.csv' file in root of project for verify project)
+
+Following step for run **tests**:
+- php bin/phpunit
